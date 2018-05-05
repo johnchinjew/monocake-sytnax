@@ -15,16 +15,16 @@
 			<dict>
 				<key>background</key>
 				<string>#000000</string>
-				<key>caret</key>
-				<string>#FFFFFF</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
-				<key>invisibles</key>
-				<string>#222222</string>
-				<key>lineHighlight</key>
+				<key>caret</key>
 				<string>#FFFFFF</string>
-				<key>selection</key>
+				<key>invisibles</key>
 				<string>#777777</string>
+				<key>lineHighlight</key>
+				<string>#222222</string>
+				<key>selection</key>
+				<string>#444444</string>
 			</dict>
 		</dict>
 		<dict>
@@ -228,8 +228,6 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#00FFFF</string>
 			</dict>
@@ -252,7 +250,7 @@
 			<string>support.other.variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
+				<key>foreground</key>
 				<string></string>
 			</dict>
 		</dict>
@@ -265,10 +263,10 @@
 			<dict>
 				<key>background</key>
 				<string>#FF0000</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 				<key>fontStyle</key>
 				<string> bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -281,7 +279,7 @@
 				<key>background</key>
 				<string>#FF0000</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#FFFFFF</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -292,7 +290,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.monokai</string>
+	<string>theme.dark.monocake</string>
 	<key>author</key>
 	<string>John Chin-Jew</string>
 	<key>comment</key>
